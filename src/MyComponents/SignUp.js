@@ -73,7 +73,7 @@ const SignUp = (props) => {
         <form onSubmit={sign_submit}>
             <div className="mb-2">
               <label htmlFor="name" className="form-label" style={labelStyle}>User Name:</label>
-              <input type="text" style={inputStyle} className="form-control" name="" value={name} id="name " onChange={(e)=>setName(e.target.value)} aria-describedby="helpId" placeholder="Enter name" required />
+              <input type="text" style={inputStyle} className="form-control" name="" value={name} id="name" onChange={(e)=>setName(e.target.value)} aria-describedby="helpId" placeholder="Enter name" required />
             </div>
 
             <div className="mb-2">
